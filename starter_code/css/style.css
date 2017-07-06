@@ -47,9 +47,9 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: inherit;
+  vertical-align: baseline;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
@@ -61,9 +61,11 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
+  width: 50%;
   margin: auto;
-  height: 500px;
+  height: 900px;
+  position: center;
+  background: url(../images/header_bg.jpg);
 
 }
 
@@ -71,7 +73,25 @@ header {
 
 }
 
+section {
+  
+  padding: 25px;
+  background: white;
+  width: 900px;
+  height: 200px;
+  margin-top: 40px;
+}
+
+
+
+}
+
 footer {
+  width: 500px;
+  background: black;
+  margin: auto;
+  float: bottom;
+  clear: both;
 
 }
 
@@ -80,5 +100,13 @@ footer {
 /*******************************************/
 
 
+.headerfont {
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+}
 
-
+input {
+  background: yellow;
+  float: center;
+}
